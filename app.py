@@ -36,6 +36,7 @@ with st.container():
         <br>
         <form action="https://formsubmit.co/usamaejaz314@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://share.streamlit.io/usamaejaz314/practice/main/app.py">
         <input type="text" name="first_name" placeholder="First name" required>
         <input type="text" name="second_name" placeholder="Surname" required>
         <input type="text" name="address" placeholder="Mobile number or email address" required>
