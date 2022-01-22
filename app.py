@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 
-st.set_page_config(page_title="StreamLit. | Sign up/Sign in to continue...", page_icon="::zap::", layout="wide")
+st.set_page_config(page_title="StreamLit. | Sign up/Sign in to continue...", page_icon=":zap:", layout="wide")
 
 def load_lottieurl(url):
     r = requests.get(url)
