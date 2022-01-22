@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 
-st.set_page_config(page_title="Cloudie. | Sign up/Sign in to continue...", page_icon=":thought_balloon:", layout="wide")
+st.set_page_config(page_title="StreamLit. | Sign up/Sign in to continue...", page_icon="::zap::", layout="wide")
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -16,8 +16,8 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
-title = "<div><span class='title'>Welcome to Cloudie.</span></div>"
-signin = "<div>Already have an account? <a href=https://accounts.cloudie.com/signin/v2/identifier?service=accountsettings><span class='text'>Sign in</span></a></div>"
+title = "<div><span class='title'>Welcome to StreamLit.</span></div>"
+signin = "<div>Already have an account? <a href=https://accounts.streamlit.com/signin/v2/identifier?service=accountsettings><span class='text'>Sign in</span></a></div>"
 
 st.markdown(title, unsafe_allow_html=True)
 
@@ -41,7 +41,7 @@ with st.container():
         <input type="text" name="address" placeholder="Mobile number or email address" required>
         <input type="password" name="password" placeholder="Password" required>
         <input type="password" name="password" placeholder="Confirm password" required>
-        <div>By clicking "Sign up", you agree to the <a href="https://legal.cloudie.com/us/en/cloudie/terms/otos/index.html"><span class='text-blue'>Terms</span></a> and <a href="https://legal.cloudie.com/us/en/cloudie/privacy/index.html"><span class='text-blue'>Privacy Policy</span></a>.<div><br>
+        <div>By clicking "Sign up", you agree to the <a href="https://legal.streamlit.com/us/en/streamlit/terms/otos/index.html"><span class='text-blue'>Terms</span></a> and <a href="https://legal.streamlit.com/us/en/cloudie/privacy/index.html"><span class='text-blue'>Privacy Policy</span></a>.<div><br>
         <button type="submit">Sign up</button>
         <br><br>
         </form>
